@@ -13,6 +13,9 @@
       <interpreter home="vagrant://C:/web/ViewOffice/usr/bin/php" id="d1df40ce-ee0f-4714-8202-0665c56b316e" name="Remote PHP 5.6" debugger_id="php.debugger.XDebug">
         <remote_data VAGRANT_FOLDER="C:/web/ViewOffice" INTERPRETER_PATH="/usr/bin/php" HELPERS_PATH="/home/vagrant/.phpstorm_helpers" INITIALIZED="false" VALID="true" />
       </interpreter>
+      <interpreter home="docker://dockerhub.icssolution.com/ics/php:7.1/php" id="3b0f1d08-769a-4842-82cf-ebb015269af6" name="dockerhub.icssolution.com/ics/php:7.1" debugger_id="php.debugger.XDebug">
+        <remote_data DOCKER_ACCOUNT_NAME="Docker" DOCKER_IMAGE_NAME="dockerhub.icssolution.com/ics/php:7.1" DOCKER_REMOTE_PROJECT_PATH="/opt/project" INTERPRETER_PATH="php" HELPERS_PATH="/opt/.phpstorm_helpers" INITIALIZED="false" VALID="true" />
+      </interpreter>
     </interpreters>
   </component>
   <component name="PhpInterpretersPhpInfoCache">
@@ -87,11 +90,72 @@
           </loaded_extensions>
         </phpinfo>
       </interpreter>
+      <interpreter name="dockerhub.icssolution.com/ics/php:7.1">
+        <phpinfo binary_type="PHP" php_cli="/usr/local/bin/php" path_separator=":" version="7.1.11">
+          <additional_php_ini>/usr/local/etc/php/conf.d/00-ioncube.ini, /usr/local/etc/php/conf.d/docker-php-ext-gd.ini, /usr/local/etc/php/conf.d/docker-php-ext-imap.ini, /usr/local/etc/php/conf.d/docker-php-ext-mcrypt.ini, /usr/local/etc/php/conf.d/docker-php-ext-mysqli.ini, /usr/local/etc/php/conf.d/docker-php-ext-odbc.ini, /usr/local/etc/php/conf.d/docker-php-ext-soap.ini, /usr/local/etc/php/conf.d/docker-php-ext-sqlsrv.ini, /usr/local/etc/php/conf.d/docker-php-ext-xdebug.ini, /usr/local/etc/php/conf.d/docker-php-ext-xsl.ini, /usr/local/etc/php/conf.d/docker-php-ext-yaml.ini, /usr/local/etc/php/conf.d/docker-php-ext-zip.ini, /usr/local/etc/php/conf.d/newrelic.ini</additional_php_ini>
+          <configuration_file>/usr/local/etc/php/php.ini</configuration_file>
+          <configuration_options>
+            <configuration_option name="include_path" value=".:/usr/local/lib/php" />
+          </configuration_options>
+          <debuggers>
+            <debugger_info debugger="xdebug" debugger_version="2.6.0">
+              <debug_extensions />
+            </debugger_info>
+          </debuggers>
+          <loaded_extensions>
+            <extension name="Core" />
+            <extension name="PDO" />
+            <extension name="Phar" />
+            <extension name="Reflection" />
+            <extension name="SPL" />
+            <extension name="SimpleXML" />
+            <extension name="ctype" />
+            <extension name="curl" />
+            <extension name="date" />
+            <extension name="dom" />
+            <extension name="fileinfo" />
+            <extension name="filter" />
+            <extension name="ftp" />
+            <extension name="gd" />
+            <extension name="hash" />
+            <extension name="iconv" />
+            <extension name="imap" />
+            <extension name="ionCube Loader" />
+            <extension name="json" />
+            <extension name="libxml" />
+            <extension name="mbstring" />
+            <extension name="mcrypt" />
+            <extension name="mysqli" />
+            <extension name="mysqlnd" />
+            <extension name="newrelic" />
+            <extension name="odbc" />
+            <extension name="openssl" />
+            <extension name="pcre" />
+            <extension name="pdo_sqlite" />
+            <extension name="posix" />
+            <extension name="readline" />
+            <extension name="session" />
+            <extension name="soap" />
+            <extension name="sqlite3" />
+            <extension name="sqlsrv" />
+            <extension name="standard" />
+            <extension name="tokenizer" />
+            <extension name="xdebug" />
+            <extension name="xml" />
+            <extension name="xmlreader" />
+            <extension name="xmlwriter" />
+            <extension name="xsl" />
+            <extension name="yaml" />
+            <extension name="zip" />
+            <extension name="zlib" />
+          </loaded_extensions>
+        </phpinfo>
+      </interpreter>
     </phpInfoCache>
   </component>
   <component name="PhpUnit">
     <phpunit_settings>
-      <phpunit_by_interpreter interpreter_id="d1df40ce-ee0f-4714-8202-0665c56b316e" load_method="CUSTOM_LOADER" bootstrap_file_path="/vagrant/test/bootstrap.php" configuration_file_path="/vagrant/test/dbunit.xml" custom_loader_path="/vagrant/vendor/autoload.php" phpunit_phar_path="" use_bootstrap_file="true" use_configuration_file="true" />
+      <phpunit_by_interpreter interpreter_id="3b0f1d08-769a-4842-82cf-ebb015269af6" load_method="CUSTOM_LOADER" bootstrap_file_path="/var/www/ViewOffice/test/bootstrap.php" configuration_file_path="/var/www/ViewOffice/test/dbunit.xml" custom_loader_path="/opt/project/vendor/autoload.php" phpunit_phar_path="" use_bootstrap_file="true" use_configuration_file="true" />
     </phpunit_settings>
   </component>
 </application>
