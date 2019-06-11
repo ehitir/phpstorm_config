@@ -2,14 +2,14 @@
   <component name="MessDetector">
     <phpmd_settings_migrated />
     <phpmd_settings>
-      <phpmd_by_interpreter interpreter_id="3b0f1d08-769a-4842-82cf-ebb015269af6" tool_path="/opt/project/vendor/bin/phpmd" />
+      <phpmd_by_interpreter interpreter_id="3b0f1d08-769a-4842-82cf-ebb015269af6" tool_path="/var/www/ViewOffice/vendor/bin/phpmd" />
       <MessDetectorConfiguration tool_path="C:/web/ViewOffice/vendor/bin/phpmd" />
     </phpmd_settings>
   </component>
   <component name="PhpCodeSniffer">
     <phpcs_settings_migrated />
     <phpcs_settings>
-      <phpcs_by_interpreter interpreter_id="3b0f1d08-769a-4842-82cf-ebb015269af6" tool_path="/opt/project/vendor/bin/phpcs" />
+      <phpcs_by_interpreter interpreter_id="3b0f1d08-769a-4842-82cf-ebb015269af6" tool_path="/var/www/ViewOffice/vendor/bin/phpcs" />
     </phpcs_settings>
   </component>
   <component name="PhpInterpreters">
