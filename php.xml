@@ -19,8 +19,8 @@
       </interpreter>
       <interpreter home="docker://dockerhub.icssolution.com/ics/php:7.1/php" id="3b0f1d08-769a-4842-82cf-ebb015269af6" name="dockerhub.icssolution.com/ics/php:7.1" debugger_id="php.debugger.XDebug">
         <configuration_options>
-          <configuration_option name="xdebug.remote_host" value="192.168.2.220" />
           <configuration_option name="xdebug.remote_host" value="192.168.100.220" />
+          <configuration_option name="xdebug.remote_host" value="192.168.2.220" />
           <configuration_option name="xdebug.remote_host" value="192.168.1.220" />
           <configuration_option name="xdebug.remote_host" value="192.168.1.21" />
           <configuration_option name="xdebug.remote_host" value="192.168.2.21" />
