@@ -22,11 +22,9 @@
           <configuration_option name="xdebug.remote_host" value="192.168.100.220" />
           <configuration_option name="xdebug.remote_host" value="192.168.2.220" />
           <configuration_option name="xdebug.remote_host" value="192.168.1.220" />
-          <configuration_option name="xdebug.remote_host" value="192.168.1.21" />
-          <configuration_option name="xdebug.remote_host" value="192.168.2.21" />
-          <configuration_option name="xdebug.remote_host" value="192.168.100.21" />
+          <configuration_option name="xdebug.remote_enabled" value="" />
         </configuration_options>
-        <remote_data DOCKER_ACCOUNT_NAME="Docker3" DOCKER_IMAGE_NAME="dockerhub.icssolution.com/ics/php:7.1" DOCKER_REMOTE_PROJECT_PATH="/opt/project" INTERPRETER_PATH="php" HELPERS_PATH="/opt/.phpstorm_helpers" INITIALIZED="false" VALID="true" />
+        <remote_data DOCKER_ACCOUNT_NAME="Docker" DOCKER_IMAGE_NAME="dockerhub.icssolution.com/ics/php:7.1" DOCKER_REMOTE_PROJECT_PATH="/opt/project" INTERPRETER_PATH="php" HELPERS_PATH="/opt/.phpstorm_helpers" INITIALIZED="false" VALID="true" />
       </interpreter>
     </interpreters>
   </component>
