@@ -2,19 +2,15 @@
   <component name="MessDetector">
     <phpmd_settings_migrated />
     <phpmd_settings>
-      <phpmd_by_interpreter interpreter_id="3b0f1d08-769a-4842-82cf-ebb015269af6" tool_path="/var/www/ViewOffice/vendor/bin/phpmd" timeout="15000" />
       <MessDetectorConfiguration tool_path="C:/web/ViewOffice/vendor/bin/phpmd" />
     </phpmd_settings>
   </component>
   <component name="PhpCodeSniffer">
     <phpcs_settings_migrated />
-    <phpcs_settings>
-      <phpcs_by_interpreter interpreter_id="3b0f1d08-769a-4842-82cf-ebb015269af6" tool_path="/var/www/ViewOffice/vendor/bin/phpcs" timeout="15000" />
-    </phpcs_settings>
   </component>
   <component name="PhpInterpreters">
     <interpreters>
-      <interpreter home="docker://dockerhub.icssolution.com/ics/php:7.1/php" id="3b0f1d08-769a-4842-82cf-ebb015269af6" name="dockerhub.icssolution.com/ics/php:7.1" debugger_id="php.debugger.XDebug">
+      <interpreter home="docker://dockerhub.icssolution.com/ics/php:7.1/php" id="66c83553-8234-4b6c-a7a1-ff980104136f" name="dockerhub.icssolution.com/ics/php:7.1" debugger_id="php.debugger.XDebug">
         <configuration_options>
           <configuration_option name="xdebug.remote_host" value="192.168.100.220" />
         </configuration_options>
@@ -91,7 +87,7 @@
   </component>
   <component name="PhpUnit">
     <phpunit_settings>
-      <phpunit_by_interpreter interpreter_id="3b0f1d08-769a-4842-82cf-ebb015269af6" load_method="CUSTOM_LOADER" bootstrap_file_path="/var/www/ViewOffice/test/bootstrap.php" configuration_file_path="/var/www/ViewOffice/test/dbunit.xml" custom_loader_path="/var/www/ViewOffice/vendor/autoload.php" phpunit_phar_path="" use_bootstrap_file="true" use_configuration_file="true" />
+      <phpunit_by_interpreter interpreter_id="66c83553-8234-4b6c-a7a1-ff980104136f" load_method="CUSTOM_LOADER" bootstrap_file_path="/var/www/ViewOffice/test/bootstrap.php" configuration_file_path="/var/www/ViewOffice/test/dbunit.xml" custom_loader_path="/opt/project/vendor/autoload.php" phpunit_phar_path="" use_bootstrap_file="true" use_configuration_file="true" />
     </phpunit_settings>
   </component>
 </application>
