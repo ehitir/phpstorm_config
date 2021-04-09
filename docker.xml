@@ -1,0 +1,5 @@
+<application>
+  <component name="DockerSettings">
+    <option name="dockerComposePath" value="C:\Program Files\Docker\Docker\Resources\bin\docker-compose.exe" />
+  </component>
+</application>
