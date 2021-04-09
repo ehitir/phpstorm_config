@@ -1,6 +1,7 @@
 <application>
   <component name="FileTypeManager" version="18">
     <extensionMap>
+      <mapping ext="html" type="PHP" />
       <removed_mapping ext="html" approved="true" type="HTML" />
     </extensionMap>
   </component>
