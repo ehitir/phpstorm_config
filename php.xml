@@ -10,11 +10,16 @@
   </component>
   <component name="PhpInterpreters">
     <interpreters>
-      <interpreter home="docker://dockerhub.icssolution.com/ics/php:7.1/php" id="66c83553-8234-4b6c-a7a1-ff980104136f" name="dockerhub.icssolution.com/ics/php:7.1" debugger_id="php.debugger.XDebug">
+      <interpreter home="docker-compose://[C:\web\ICS-Docker-Container\develop\ics\compose-ics-7.1-win.yml]:php/php" id="66c83553-8234-4b6c-a7a1-ff980104136f" name="dockerhub.icssolution.com/ics/php:7.1" debugger_id="php.debugger.XDebug">
         <configuration_options>
           <configuration_option name="xdebug.remote_host" value="192.168.100.220" />
         </configuration_options>
-        <remote_data DOCKER_ACCOUNT_NAME="Docker" DOCKER_IMAGE_NAME="dockerhub.icssolution.com/ics/php:7.1" DOCKER_REMOTE_PROJECT_PATH="/opt/project" INTERPRETER_PATH="php" HELPERS_PATH="/opt/.phpstorm_helpers" INITIALIZED="false" VALID="true" />
+        <remote_data DOCKER_ACCOUNT_NAME="Docker" DOCKER_COMPOSE_SERVICE_NAME="php" DOCKER_REMOTE_PROJECT_PATH="/opt/project" INTERPRETER_PATH="php" HELPERS_PATH="/opt/.phpstorm_helpers" INITIALIZED="false" VALID="true">
+          <dockerComposeConfigurationPaths>
+            <item value="C:\web\ICS-Docker-Container\develop\ics\compose-ics-7.1-win.yml" />
+          </dockerComposeConfigurationPaths>
+          <envs />
+        </remote_data>
       </interpreter>
     </interpreters>
   </component>
