@@ -1,16 +1,16 @@
 <application>
   <component name="XDebuggerSettings">
     <data-views>
-      <option name="autoExpressions" value="false" />
-      <show-values-inline>false</show-values-inline>
+      <sort-values>true</sort-values>
     </data-views>
     <general>
-      <option name="showDebuggerOnBreakpoint" value="false" />
+      <option name="hideDebuggerOnProcessTermination" value="true" />
+      <scroll-to-center>true</scroll-to-center>
     </general>
     <debuggers>
       <debugger id="javascript">
-        <configuration alwaysDoSmartStepInto="false">
-          <custom-object-presentation />
+        <configuration>
+          <custom-object-presentation enabled="true" />
         </configuration>
       </debugger>
     </debuggers>
