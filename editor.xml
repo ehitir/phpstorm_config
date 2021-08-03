@@ -11,6 +11,5 @@
       </map>
     </option>
     <option name="USE_SOFT_WRAPS" value="MAIN_EDITOR:CONSOLE" />
-    <option name="REMOVE_TRAILING_BLANK_LINES" value="true" />
   </component>
 </application>
