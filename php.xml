@@ -4,4 +4,5 @@
       <MessDetectorConfiguration tool_path="C:/web/ViewOffice/vendor/bin/phpmd" />
     </phpmd_settings>
   </component>
+  <component name="PhpDebugGeneral" xdebug_resolve_breakpoints="false" />
 </application>
