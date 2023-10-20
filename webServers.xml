@@ -1,0 +1,12 @@
+<application>
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="598439b7-848a-41b2-8e11-2506cb69f23a" name="PCERIC" url="https://7910-217-150-213-6.ngrok-free.app">
+        <fileTransfer mountedRoot="C:\test" accessType="MOUNT" port="0" />
+      </webServer>
+      <webServer id="87edb61e-c7fd-437f-9f73-86944cef131e" name="Tes" url="https://7910-217-150-213-6.ngrok-free.app">
+        <fileTransfer mountedRoot="C:\test" accessType="MOUNT" port="0" />
+      </webServer>
+    </option>
+  </component>
+</application>
