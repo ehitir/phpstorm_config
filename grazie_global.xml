@@ -3,6 +3,7 @@
     <option name="enabledLanguages">
       <set>
         <option value="Spanish" />
+        <option value="English (GB)" />
       </set>
     </option>
     <option name="detectionContext">
