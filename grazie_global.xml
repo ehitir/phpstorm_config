@@ -2,8 +2,8 @@
   <component name="GraziConfig">
     <option name="enabledLanguages">
       <set>
-        <option value="Spanish" />
         <option value="English (GB)" />
+        <option value="Spanish" />
       </set>
     </option>
     <option name="detectionContext">
