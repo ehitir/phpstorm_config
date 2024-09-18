@@ -1,8 +1,9 @@
 <scheme name="Rafi" version="142" parent_scheme="Default">
+  <option name="FONT_SCALE" value="1.0" />
   <option name="LINE_SPACING" value="0.8" />
-  <option name="EDITOR_FONT_SIZE" value="14" />
-  <option name="CONSOLE_FONT_NAME" value="Monaco" />
+  <option name="EDITOR_FONT_SIZE" value="15" />
   <option name="EDITOR_FONT_NAME" value="Consolas" />
+  <option name="CONSOLE_FONT_NAME" value="Monaco" />
   <colors>
     <option name="ANNOTATIONS_COLOR" value="3e83e7" />
     <option name="CARET_COLOR" value="ffff99" />

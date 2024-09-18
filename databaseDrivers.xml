@@ -22,13 +22,13 @@
     <driver id="oracle" name="Oracle">
       <option name="auto-sync" value="false" />
     </driver>
-    <driver id="sqlite.xerial" name="Sqlite (Xerial)" />
     <driver id="sybase.jtds">
       <option name="auto-sync" value="false" />
     </driver>
     <driver id="sybase.ase" name="Sybase (Native)">
       <option name="auto-sync" value="false" />
     </driver>
+    <driver id="sqlite.xerial" name="Sqlite (Xerial)" />
     <driver id="ffe923be-a3ad-4d21-a9f7-f17bde938873" name="Data Source driver" dialect="MySQL" driver-class="com.mysql.jdbc.Driver" icon="AllIcons.Providers.Mysql">
       <url-template name="default" template="jdbc:mysql://{host::localhost}?[:{port::3306}][/{database}?][\?&lt;&amp;,user={user},password={password},{:identifier}={:identifier}&gt;]" />
       <url-template name="default" template="jdbc:mysql://address=\(protocol=tcp\)\(&lt;\)\(,host={host:host_ipv6:localhost},port={port::3306},user={user},password={password},{:identifier}={:identifier}&gt;\)[/{database}][\?&lt;&amp;,{:identifier}={:identifier}&gt;]" />

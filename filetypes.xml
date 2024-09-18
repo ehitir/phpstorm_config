@@ -1,11 +1,12 @@
 <application>
-  <component name="FileTypeManager" version="18">
+  <component name="FileTypeManager" version="19">
     <extensionMap>
       <mapping pattern="aeroparque_preferencial" type="AUTO_DETECTED" />
       <mapping pattern="modal_dragonpass_scan_qr.html" type="AUTO_DETECTED" />
       <mapping ext="html" type="PHP" />
       <mapping ext="vtt" type="PLAIN_TEXT" />
       <removed_mapping ext="html" approved="true" type="HTML" />
+      <removed_mapping ext="log" approved="true" type="PLAIN_TEXT" />
     </extensionMap>
   </component>
 </application>
