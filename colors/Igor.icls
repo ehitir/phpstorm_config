@@ -4,16 +4,16 @@
   <option name="EDITOR_FONT_SIZE" value="15" />
   <option name="EDITOR_FONT_NAME" value="Monospaced" />
   <colors>
-    <option name="CARET_ROW_COLOR" value="ffffff" />
-    <option name="CONSOLE_BACKGROUND_KEY" value="f2f2f2" />
-    <option name="GUTTER_BACKGROUND" value="f2f2f2" />
-    <option name="INDENT_GUIDE" value="eeeeee" />
-    <option name="METHOD_SEPARATORS_COLOR" value="ffffff" />
-    <option name="SELECTED_INDENT_GUIDE" value="0" />
-    <option name="SELECTED_TEARLINE_COLOR" value="eeeeee" />
-    <option name="SELECTION_BACKGROUND" value="eeeeee" />
-    <option name="SELECTION_FOREGROUND" value="0" />
-    <option name="TEARLINE_COLOR" value="ffffff" />
+    <option name="CARET_ROW_COLOR" value="FFFFFF" />
+    <option name="CONSOLE_BACKGROUND_KEY" value="F2F2F2" />
+    <option name="GUTTER_BACKGROUND" value="F2F2F2" />
+    <option name="INDENT_GUIDE" value="EEEEEE" />
+    <option name="METHOD_SEPARATORS_COLOR" value="FFFFFF" />
+    <option name="SELECTED_INDENT_GUIDE" value="000000" />
+    <option name="SELECTED_TEARLINE_COLOR" value="EEEEEE" />
+    <option name="SELECTION_BACKGROUND" value="EEEEEE" />
+    <option name="SELECTION_FOREGROUND" value="000000" />
+    <option name="TEARLINE_COLOR" value="FFFFFF" />
   </colors>
   <attributes>
     <option name="ABSTRACT_CLASS_NAME_ATTRIBUTES">

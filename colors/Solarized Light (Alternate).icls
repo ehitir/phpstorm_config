@@ -4,17 +4,17 @@
   <option name="EDITOR_FONT_SIZE" value="15" />
   <option name="EDITOR_FONT_NAME" value="Monospaced" />
   <colors>
-    <option name="CARET_ROW_COLOR" value="eee8d5" />
-    <option name="CONSOLE_BACKGROUND_KEY" value="fdf6e3" />
-    <option name="GUTTER_BACKGROUND" value="fdf6e3" />
-    <option name="INDENT_GUIDE" value="eee8d5" />
-    <option name="LINE_NUMBERS_COLOR" value="93a1a1" />
-    <option name="METHOD_SEPARATORS_COLOR" value="eee8d5" />
-    <option name="SELECTED_INDENT_GUIDE" value="586e75" />
-    <option name="SELECTED_TEARLINE_COLOR" value="eee8d5" />
-    <option name="SELECTION_BACKGROUND" value="eee8d5" />
-    <option name="SELECTION_FOREGROUND" value="586e75" />
-    <option name="TEARLINE_COLOR" value="eee8d5" />
+    <option name="CARET_ROW_COLOR" value="EEE8D5" />
+    <option name="CONSOLE_BACKGROUND_KEY" value="FDF6E3" />
+    <option name="GUTTER_BACKGROUND" value="FDF6E3" />
+    <option name="INDENT_GUIDE" value="EEE8D5" />
+    <option name="LINE_NUMBERS_COLOR" value="93A1A1" />
+    <option name="METHOD_SEPARATORS_COLOR" value="EEE8D5" />
+    <option name="SELECTED_INDENT_GUIDE" value="586E75" />
+    <option name="SELECTED_TEARLINE_COLOR" value="EEE8D5" />
+    <option name="SELECTION_BACKGROUND" value="EEE8D5" />
+    <option name="SELECTION_FOREGROUND" value="586E75" />
+    <option name="TEARLINE_COLOR" value="EEE8D5" />
   </colors>
   <attributes>
     <option name="ABSTRACT_CLASS_NAME_ATTRIBUTES">
